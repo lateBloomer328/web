@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(54, 54, 54);
+  padding: 1px;
+}
+
+.container {
+  position: relative;
+  top: 200px;
+  background-color: white;
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  padding: 30px;
+}
+
+.container > p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+form p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  box-sizing: border-box;
+  height: 35px;
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input-email > input {
+  width: 100%;
+  margin: auto;
+}
+
+.input-first {
+  float: left;
+  width: 160px;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.input-last {
+  float: left;
+  width: 160px;
+  margin: auto;
+}
+
+.input-name input {
+  width: 100%;
+}
+
+.input-message {
+  clear: both;
+  position: relative;
+  top: 14px;
+}
+
+.input-message > input {
+  position: relative;
+  top: 2px;
+  width: 100%;
+  height: 120px;
+}
+
+.submission {
+  position: relative;
+  top: 30px;
+}
+
+.submission > input[type="checkbox"] {
+  height: 10px;
+  margin: 0;
+}
+
+.submission > label {
+  font-size: 12px;
+}
+
+.submission > button {
+  float: right;
+  background-color: rgb(255, 187, 0);
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  width: 110px;
+  height: 30px;
+}
